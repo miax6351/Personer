@@ -1,6 +1,15 @@
 package Lektion9;
 
+import java.util.Arrays;
+
 public class Test {
+
+    private static Ansat[] personoplysninger = {
+            new Ansat("Lotte","DTU"),
+            new Ansat("Berit","DTU"),
+            new Ansat("Preben","DTU"),
+            new Ansat("Julianne","DTU"),
+    };
 
     public static void main(String[] args) {
         System.out.println("PERSON");
@@ -23,7 +32,18 @@ public class Test {
         Tap t1 = new Tap("Berit","DTU",10);
         System.out.println(t1);
 
+        getPersonOplysninger();
+
 
 
     }
+
+    public static void getPersonOplysninger(){
+        for (Ansat a : personoplysninger){
+            System.out.println(a);
+        }
+
+    }
+
+
 }

@@ -12,6 +12,6 @@ public class Tap extends Ansat {
     @Override
     public String toString() {
         return super.toString() + "arbejdstid:" + arbejdstid +
-                "t";
+                "t" + "\n";
     }
 }
