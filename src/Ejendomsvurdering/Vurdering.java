@@ -11,6 +11,15 @@ public class Vurdering {
 
         Ejendom[] ejendomme = { k29, a11 };
         System.out.println(vurdering(ejendomme));
+
+        Grund g = new Grund(800,500,400000);
+        System.out.println(g.vurdering());
+
+        ForurenetGrund f1 = new ForurenetGrund(800, 500, 400000,300);
+        System.out.println(f1.vurdering());
+        f1.setFradrag(500);
+        System.out.println(f1.vurdering());
+
     }
 
 

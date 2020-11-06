@@ -9,7 +9,7 @@ public class ForurenetGrund extends Grund {
         this.fradrag = fradrag;
     }
 
-    public void setFradrag(){
+    public void setFradrag(int fradrag){
         this.fradrag = fradrag;
     }
 
